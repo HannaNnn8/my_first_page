@@ -79,6 +79,7 @@ select {
 
 .logo {
     margin: 6px;
+    font-size: .50rem;
 }
 
 
@@ -130,7 +131,7 @@ h1 {
     max-width: 1080px;
     object-fit: contain;
     width: 1080px;
-    height: 290px;
+    
 }
 
 .button { 
@@ -292,6 +293,54 @@ p {
 footer {
   display: inline;
 }
-@media (max-width: 1500px) {
 
+@media (max-width: 1500px) {
+   .title-wrapper h1 {
+    font-size: 74px;
+   }
+}
+
+@media (max-width: 117px) {
+  .title-wrapper h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 753px) {
+  .title-wrapper h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .nav-wrapper {padding: 4.875rem 19.625rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .title-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+}
+
+@media (max-width: 900px) {
+  .project {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-family: HelveticaNeue-Medium, sans-serif;
+    font-size: .75rem;
+    font-weight: 500;
+    letter-spacing: .3px;
+    padding: 0.875rem 0.625rem;
+    position: relative;
+    text-transform: uppercase;
+    color: #333;
+    flex-wrap: wrap;
+  }
 }
