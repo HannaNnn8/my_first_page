@@ -349,7 +349,7 @@ footer {
 
 @media (max-width: 753px) {
   .title-wrapper h1 {
-    font-size: 50px;
+    font-size: 25px;
   }
 }
 
@@ -384,6 +384,10 @@ footer {
     color: #333;
     flex-wrap: wrap;
   }
+}
+
+@media (max-width: 900px) {
+
 }
 
 .name2 {
@@ -476,12 +480,22 @@ footer {
   margin-top: 2%;
 }
 
-.input1, .input2 {
+.emailField, .nameField {
   border-radius: 2cap;
   margin-top: 1%;
   height: 45px;
   margin-top: 1%;
   width: 300px;
+ 
+}
+
+.contactForm {
+  color: black;
+  display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-right: 50%;
 }
 
 .name4 {
@@ -510,9 +524,11 @@ footer {
   color:#FFF5F5;
   margin-bottom: 5%;
   margin-left: 12%;
+  margin-top: 5%;
+}
   
 
-}
+
 
 .button-footer:hover {
   color: black;
@@ -557,4 +573,12 @@ footer {
 
 .px_pic {
   margin-top: 7%;
+}
+
+
+.media {
+  display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
 }

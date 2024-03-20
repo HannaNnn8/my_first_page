@@ -7,7 +7,9 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
         <title> My first page </title>
+   
         <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+        <script src="JS/script.js"></script>
     </head>
 
     <!-- Start main content -->
@@ -19,8 +21,8 @@
     <body>
         <div class="main-content-wrapper">
             <header>
-                <div class="nav-wrapper">
-                    <div class="logo"> 
+                <div id="nav-wrapper" class="nav-wrapper">
+                    <div id="logo" class="logo"> 
                     @annnevreva
                      </div>
                 <nav id="top-nav">
@@ -49,8 +51,9 @@
                         Hi! My name is Hanna. I'm web-developer. I create websites with its own special twist that convey the value of the brand to the client.
 
                     </p>
-                    <button class="button2">
+                    <button type="submit" class="button2">
                     GET STARTED </button>
+
                 </div>
             </header>
         </div>
@@ -125,17 +128,21 @@
                         <div class="name4">
                             GET IN TOUCH
                         </div>
-                            <div class="custom-field">
-                                <label for="your-name-field" class="placeholder"> Your name</label>
-                                <input id="your-name-field" type="your-name" class="input1"/>
-                            </div>
-                            <div class="custom-field2">
-                                <label for="email-field" class="placeholder"> Email </label>
-                                <input id="email-field" type="email" class="input2"/>
-                            </div>
+                        <div class="contact_links">
+                        <div>
+                        <form id="contactForm" class="contactForm">
+                            Your name: <input type="yourName" id="NameInput" placeholder="Enter your full Name" class="nameField">
+                            <br>
+                            
+                            Email: <input type="email" id="emailInput" placeholder="Enter Your Email" class="emailField">
+                            <button type=submit class="button-footer"> GET STARTED
+                            </button> 
+
+                        </form>
+                    </div>
+                        <div id="errorMessage"></div>
                             <div class="media">
-                             <button class="button-footer"> GET STARTED
-                                </button> 
+
                                 <div class="media-links">
                                     <ul class="insta_pic">
                                     <a href="https://www.instagram.com/annnevreva/">
@@ -153,6 +160,7 @@
                                     </a>
                                     </ul>
                                 </div>
+                            </div>
                             </div>
                         
                     </div>
