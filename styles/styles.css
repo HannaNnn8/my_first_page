@@ -544,19 +544,17 @@ footer {
   height: 80px;
 }
 
+.px_pic {
+  width: 100px;
+  height: 100px;
+}
+
 .media {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.px { 
-  height: 65px;
-  border-radius: 2cap;
-  width: fit-content;
-  border: 2.75px solid white;
-
-}
 
 .facebook {
   width: 65px;
@@ -581,4 +579,5 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
 }
+
 
