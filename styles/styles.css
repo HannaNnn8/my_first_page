@@ -551,11 +551,10 @@ footer {
 }
 
 .px { 
-  width: 60px;
-  height: 60px;
+  height: 65px;
   border-radius: 2cap;
   width: fit-content;
-  border: 2.75px solid black;
+  border: 2.75px solid white;
 
 }
 
@@ -582,3 +581,4 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
 }
+
